@@ -2,7 +2,7 @@ import { ApolloClient, InMemoryCache, HttpLink } from '@apollo/client';
 
 const client = new ApolloClient({
   link: new HttpLink({
-    uri: 'https://countries.trevorblades.com', 
+    uri: 'https://asrp.media/public-graphql', 
   }),
   cache: new InMemoryCache(),
 });
